@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Facebook</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="intro">
+    <img class="facebook__logo" src="img/facebook.svg" alt="facebook_logo">
+    <h2>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h2>
+  </div>
+  <div>
+  <form class="form__login">
+    <input type="text" placeholder="Email ou telefone">
+    <input type="password" placeholder="Senha">
+    <button class="button__login">Entrar</button>
+    <a href="#">Esqueceu a senha?</a>
+    <button class="button__creat">Criar nova conta</button>
+  </form>
+  <p><a href="#">Criar uma Página</a> para uma celebridade, uma marca ou uma empresa.</p>
+  </div>
+</div>
+</body>
+<footer>Meta © <span id="year">2022</span></footer>
+
+<script>
+  const year = document.getElementById("year");
+  const actualYear = new Date();
+
+  year.innerHTML = actualYear.getFullYear();
+</script>
+
+</html>
